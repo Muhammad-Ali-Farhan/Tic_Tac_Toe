@@ -77,7 +77,6 @@ function resetGame() {
     cells.forEach(cell => {
         cell.textContent = '';
     });
-    // Reset the current player to start based on who lost last
     currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
     updateTurnIndicator();
 }
